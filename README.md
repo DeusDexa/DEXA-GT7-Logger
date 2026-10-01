@@ -1,15 +1,14 @@
-# PGG GT7 Logger 🏎️
+# DEXA GT7 Logger 🏎️
 "Every millisecond tells a story. I just write it down."
 
 A modern, modular telemetry logger for Gran Turismo 7 – built to precisely capture and analyze race data via the UDP protocol. It records key metrics such as lap times, fuel usage, speed, and vehicle position, and is structured for future extension.
 
-🛠️ Sure, there are already plenty of GT7 loggers out there. But this one? This one is for our PGG Community.  
-Find us on Discord: [PGG Community](https://discord.gg/BJRVa4YDjF)
+🛠️ Sure, there are already plenty of GT7 loggers out there. But this one is mine – built around the data and summaries I actually want after a race.
 
 I wanted a tool that delivers a reliable summary after every race – no missing laps, no pit stop chaos.
-And honestly? I hadn’t touched code in over 20 years. This project was my way back – a challenge, a learning journey, and something built with the community, for the community.
+And honestly? I hadn’t touched code in over 20 years. This project was my way back – a challenge, a learning journey, and something I continue to develop step by step.
 
-"This is my logger. There are many like it, but this one is ours."
+"This is my logger. There are many like it, but this one is mine."
 
 ---
 
@@ -44,7 +43,7 @@ Ensure your PC is on the same network.
 Run the script:
 
 ```bash
-python PGG-gt7-logger.py <IP address of your PlayStation> [nogfx]
+python dexa-gt7-logger.py <IP address of your PlayStation> [nogfx]
 ```
 
 Data will be saved as `.txt` files in the `/logs/` folder.
@@ -65,7 +64,6 @@ Pos	Lap	Laptime		Fuel	Max	Min	Avg
  
 Race_ID                 Dauer           BestLap        min     max        avg   PS    PF  fuelavg
 Race_ID_20250609171214  00:08:50,540	00:01:43,843 	58 	216	148	07	04   1.54
-
 ```
 
 ---
@@ -76,7 +74,7 @@ A few screenshots to illustrate what’s going on.
 
 ![Laptimes & fuel](https://i.imgur.com/oXZ4QUi.png)
 
-![laptime / Fuel](https://github.com/DeusDexa/Dexa-GT7-Logger/blob/main/images/Summary_lap_fuel_01-12.png) 
+![laptime / Fuel](https://github.com/DeusDexa/Dexa-GT7-Logger/blob/main/images/Summary_lap_fuel_01-12.png)
 
 ---
 
@@ -97,7 +95,6 @@ MIT License – see `LICENSE`
 
 This project is based on the excellent [raw-sim-telemetry](https://github.com/GeekyDeaks/raw-sim-telemetry) by [@GeekyDeaks](https://github.com/GeekyDeaks).  
 Many thanks for the original structure and for sharing the code openly!
-
 
 * [Nenkai](https://github.com/Nenkai) for insights into GT7 packet structures
 * Gran Turismo™ – Polyphony Digital
