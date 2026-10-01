@@ -56,14 +56,16 @@ Data will be saved as `.txt` files in the `/logs/` folder.
 
 ```
 Pos	Lap	Laptime		Fuel	Max	Min	Avg
-05	001	01:52,496	1.58	216	58	147
-05	002	01:44,266	1.53	216	62	149
-05	003	01:43,843	1.49	216	67	149
-04	004	01:45,272	1.52	213	60	147
-04	005	01:44,663	1.58	214	60	148
+10	001	01:51,367	6.14	240	69	148
+...
+07	012	01:40,269	6.94	246	64	152
+07	013	01:42,012	6.08	247	55	149
  
-Race_ID                 Dauer           BestLap        min     max        avg   PS    PF  fuelavg
-Race_ID_20250609171214  00:08:50,540	00:01:43,843 	58 	216	148	07	04   1.54
+Race_ID                 GT7_Car_ID    Dauer           BestLap            min     max     avg      PS      PF    fuelavg
+Race_ID_20261001161545  3588          00:23:19,847    00:01:38,804         0     247     142      12      07       6.37
+
+Fahrzeug: 296 GT3 '23
+Strecke:  Autodromo de Interlagos
 ```
 
 ---
@@ -76,9 +78,9 @@ A few screenshots to illustrate what’s going on.
 
 
 
-![Laptimes & fuel](https://i.imgur.com/oXZ4QUi.png)
+![Laptimes & fuel](images/01-10-2026_Summary-Demo.png)
 
-![laptime / Fuel](https://github.com/DeusDexa/Dexa-GT7-Logger/blob/main/images/Summary_lap_fuel_01-12.png)
+![laptime / Fuel](images/01-10-2026_Rundenanalyse-Demo.png)
 
 ---
 
