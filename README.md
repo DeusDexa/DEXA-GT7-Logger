@@ -10,6 +10,8 @@ And honestly? I hadn’t touched code in over 20 years. This project was my way 
 
 "This is my logger. There are many like it, but this one is mine."
 
+
+![DEXA GT7 Logger](images/01-10-2026_GUI-Demo.jpg)  
 ---
 
 ## 🚀 Features
