@@ -1,4 +1,4 @@
-# DEXA GT7 Logger 🏎️
+# DEXA GT7 Logger 
 "Every millisecond tells a story. I just write it down."
 
 A modern, modular telemetry logger for Gran Turismo 7 – built to precisely capture and analyze race data via the UDP protocol. It records key metrics such as lap times, fuel usage, speed, and vehicle position, and is structured for future extension.
@@ -12,18 +12,18 @@ And honestly? I hadn’t touched code in over 20 years. This project was my way 
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 📦 Reads live UDP packets from GT7 on port `33740`
-* ⛽ Reliably calculates **fuel consumption**, including pit stop handling
-* 🏎️ Logs lap times, speed data, fuel consumption and more
-* 📉 Outputs as plain text or for further analysis in tools like Streamlit or Excel
-* 📂 Supports structured log file format
-* ✅ Tracks values like `fuel_start_of_lap`, `fuel_used`, `best_lap`, `total_time`, and other telemetry fields
+*  Reads live UDP packets from GT7 on port `33740`
+*  Reliably calculates **fuel consumption**, including pit stop handling
+*  Logs lap times, speed data, fuel consumption and more
+*  Outputs as plain text or for further analysis in tools like Streamlit or Excel
+*  Supports structured log file format
+*  Tracks values like `fuel_start_of_lap`, `fuel_used`, `best_lap`, `total_time`, and other telemetry fields
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 * Python 3.10 or higher
 * Recommended libraries:
@@ -52,7 +52,7 @@ Data will be saved as `.txt` files in the `/logs/` folder.
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 ```
 Pos	Lap	Laptime		Fuel	Max	Min	Avg
@@ -91,13 +91,13 @@ Always open to tips on how to extract **more or different data from GT7** – wh
 
 ---
 
-## 📄 License
+## License
 
 MIT License – see `LICENSE`
 
 ---
 
-## 🙏 Credits
+## Credits
 
 This project is based on the excellent [raw-sim-telemetry](https://github.com/GeekyDeaks/raw-sim-telemetry) by [@GeekyDeaks](https://github.com/GeekyDeaks).  
 Many thanks for the original structure and for sharing the code openly!
