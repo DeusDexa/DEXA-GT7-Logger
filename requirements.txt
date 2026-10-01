@@ -1,4 +1,4 @@
 # requirements.txt für GT7 Logger
-python_version == "3.11.0"
 matplotlib>=3.6
-salsa20==0.1.2
+Pillow>=9.0
+salsa20==0.3.0
