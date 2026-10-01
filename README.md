@@ -99,4 +99,6 @@ This project is based on the excellent [raw-sim-telemetry](https://github.com/Ge
 Many thanks for the original structure and for sharing the code openly!
 
 * [Nenkai](https://github.com/Nenkai) for insights into GT7 packet structures
+* [ddm999](https://github.com/ddm999) / [gt7info](https://github.com/ddm999/gt7info) for the GT7 car identification data
+* [Bornhall](https://github.com/Bornhall) / [gt7telemetry](https://github.com/Bornhall/gt7telemetry) for the GT7 track detection data and `gt7trackdetect.csv`
 * Gran Turismo™ – Polyphony Digital
