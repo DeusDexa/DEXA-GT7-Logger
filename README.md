@@ -34,6 +34,49 @@ pip install -r requirements.txt
 
 ---
 
+## 📁 Required Data and Asset Folders
+
+The logger uses two local folders that are part of the repository and must remain next to the main Python script:
+
+```text
+assets/
+data/
+```
+
+### `assets/`
+
+Contains the visual resources used by the GUI and generated graphics, including icons, images and the bundled fonts.
+
+Typical contents include:
+
+```text
+assets/
+├─ Fonts/
+├─ tank.png
+├─ ...
+```
+
+### `data/`
+
+Contains the local lookup tables used by the logger. No online connection is required for these lookups during a race.
+
+```text
+data/
+├─ car_ids.csv
+├─ course.csv
+└─ gt7trackdetect.csv
+```
+
+* `car_ids.csv` maps GT7 car IDs to vehicle names.
+* `course.csv` maps GT7 course IDs to track/layout names.
+* `gt7trackdetect.csv` contains the geometric reference data used for automatic track detection.
+
+Keep the folder names and relative paths unchanged. The logger expects `assets` and `data` to be located beside `dexa-gt7-logger.py`.
+
+The original data sources are listed in the **Credits** section below.
+
+---
+
 ## ⚙️ Usage
 
 Start GT7 on your PS5 with UDP telemetry output enabled.
