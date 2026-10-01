@@ -10,8 +10,6 @@ And honestly? I hadn’t touched code in over 20 years. This project was my way 
 
 "This is my logger. There are many like it, but this one is mine."
 
-
-![DEXA GT7 Logger](images/01-10-2026_GUI-Demo.png)  
 ---
 
 ## 🚀 Features
@@ -73,6 +71,10 @@ Race_ID_20250609171214  00:08:50,540	00:01:43,843 	58 	216	148	07	04   1.54
 ## 📸 Preview / Screenshots
 
 A few screenshots to illustrate what’s going on.
+
+![DEXA GT7 Logger](images/01-10-2026_GUI-Demo.png)  
+
+
 
 ![Laptimes & fuel](https://i.imgur.com/oXZ4QUi.png)
 
