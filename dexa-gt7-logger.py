@@ -1,5 +1,4 @@
-# V32 - experimentelle Streckenerkennung auf Basis der stabilen V31
-# V31 bleibt unverändert und ist der stabile Referenzstand.
+# V32 bleibt unverändert und ist der stabile Referenzstand.
 # Experiment:
 # - lädt data/gt7trackdetect.csv
 # - lädt data/course.csv
@@ -315,7 +314,7 @@ class DexaLoggerGUI:
             ).pack(side="left", pady=20)
 
         tk.Label(
-            left, text="V31", bg=self.HEADER_BG, fg=self.ACCENT,
+            left, text="V32", bg=self.HEADER_BG, fg=self.ACCENT,
             font=(self.UI_FONT, 10, "bold")
         ).pack(side="left", padx=(12, 0), pady=(30, 0))
 
@@ -372,7 +371,7 @@ class DexaLoggerGUI:
             "DEXA GT7 Loggers liegt deshalb bewusst auf sauberen Rennlogs und deren "
             "weiterer Auswertung.\n\n"
             "Die Rennstatistik wird separat über das Streamlit-Dashboard ausgewertet.\n\n"
-            "Aktuelle Version: V31 (Experiment auf Basis V30)"
+            "Aktuelle Version: V32 "
         )
 
     # ------------------------------------------------------------------
@@ -1516,7 +1515,7 @@ def logger_worker():
         (0x90,1,"BYTE", "GEAR"),
         (0x91,1,"BYTE", "THROTTLE"),
         (0x92,1,"BYTE", "BRAKE"),
-        # V31: GT7 Vehicle/Car Code im Standard-A-Paket
+        # V32: GT7 Vehicle/Car Code im Standard-A-Paket
         (0x124,1,"INT32","CAR_CODE"),
         # Erweiterung, nur fürs Logging
         #(0x0020, 1, "FLOAT", "SpeedMPS"),
@@ -1534,7 +1533,7 @@ def logger_worker():
         (0x0210, 1, "FLOAT", "LapTimePrevious"),
         #(0x0214, 1, "FLOAT", "LapTimeBest"),
         (0x0218, 1, "INT32", "RacePosition2"),
-        # V31: alte Versuchsoffsets 0x0220/0x0224 bewusst deaktiviert.
+        # V32: alte Versuchsoffsets 0x0220/0x0224 bewusst deaktiviert.
         #(0x0228, 1, "FLOAT", "TotalTime"),
         #(0x022C, 1, "INT32", "BestLapCarIndex"),
         #(0x0244, 1, "INT32", "CarDamage"),
